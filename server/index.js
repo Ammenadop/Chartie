@@ -33,6 +33,7 @@ const connect = async() =>{
 app.use(express.json())
 app.use(cors(corsOptions))
 app.use(cookieParser())
+app.set("trust proxy", 1)
 app.use("/api/v1/auth", authRoute );
 app.use("/api/v1/bars", barRoute );
 

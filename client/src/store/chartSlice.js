@@ -44,8 +44,12 @@ export function fetchData() {
         credentials: "include",
       }
       );
+      
       const result= await res.json();
       console.log(result);
+      if (!res.ok) {
+        throw new Error();
+      }
       dispatch(setData(result ? result.data : []));
     } catch (err) {}
   };
