@@ -3,6 +3,7 @@ import BarChart from '../components/Barcharts';
 import { Slider } from "primereact/slider";
 import { useDispatch, useSelector } from 'react-redux';
 import { changed, fetchData } from '../store/chartSlice';
+//op
 const Chart = () => {
     const dispatch = useDispatch();
     const [value, setValue] = useState(0);
