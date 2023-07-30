@@ -54,3 +54,7 @@ https://custom-app-75181.web.app/ (Firebase)
 
 ## Backend Render Deployed Link:
 Server Deploy link : https://chartie.onrender.com/
+
+## Issues you might be facing:
+
+use node version 14 or 19 if any problem arises due to node version
