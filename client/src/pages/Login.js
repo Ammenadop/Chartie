@@ -54,6 +54,7 @@ const Login = () => {
           const { token } = jsonResponse;
           setTimeout(() => {
             Cookies.set("accessToken", token);
+            localStorage.setItem("token", token);
             dispatch(setUserEmail(jsonResponse.data.email));
             navigate("/");
             setLoading(false);

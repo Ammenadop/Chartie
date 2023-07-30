@@ -50,9 +50,9 @@ export const login = async (req, res) => {
         message: "Incorrect email or password",
       });
     }
-    const { password, role, ...rest } = user._doc;
+    const { password,...rest } = user._doc;
     const token = jwt.sign(
-      { id: user._id, role: user.role },
+      { email: user.email},
       process.env.JWT_SECRET_KEY,
       { expiresIn: "15d" }
     );
@@ -65,8 +65,7 @@ export const login = async (req, res) => {
       .status(200)
       .json({
         token,
-        data: { ...rest },
-        role,
+        data: { ...rest }
       });
   } catch (err) {
     res.status(500).json({

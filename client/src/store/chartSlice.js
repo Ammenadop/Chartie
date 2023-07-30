@@ -33,6 +33,7 @@ export default chartSlice.reducer;
 
 export function fetchData() {
   return async function fetchUserThunk(dispatch) {
+    // const token = localStorage.getItem("token");
     try {
       const res = await fetch(`${url}/bars`,
       {
@@ -44,7 +45,7 @@ export function fetchData() {
       }
       );
       const result= await res.json();
-      console.log(result.data);
+      console.log(result);
       dispatch(setData(result ? result.data : []));
     } catch (err) {}
   };
