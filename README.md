@@ -18,7 +18,7 @@ Node.js, Express.js, mongodb (NoSQL), mongoose for connect database to server, c
 Clone the Repository from Github or download zip file. Then do the following steps:
 ```bash
 # For Frontend
-
+    cd client
     npm install
 
 // To run react-app
@@ -28,11 +28,12 @@ Clone the Repository from Github or download zip file. Then do the following ste
 
 
 # For Backend
-// make a .env file and write these
+// make a .env file in server directory and write these
 // PORT = Your favourite port number
 // MONGO_URI = Mongodb database url
 // JWT_SECRET_KEY= Your Secret key
 
+    cd server
     npm install
     npm run start-dev
 
