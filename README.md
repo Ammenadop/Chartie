@@ -57,4 +57,5 @@ Server Deploy link : https://chartie.onrender.com/
 
 ## Issues you might be facing:
 
-use node version 14 or 19 if any problem arises due to node version
+use node version 14 or 19 if any problem arises due to node version for frontend .
+For server 19 is recommended.
