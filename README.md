@@ -26,6 +26,7 @@ Clone the Repository from Github or download zip file. Then do the following ste
     (Or)
     npm start
 
+
 # For Backend
 // make a .env file and write these
 // PORT = Your favourite port number
