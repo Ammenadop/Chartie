@@ -15,7 +15,7 @@ Node.js, Express.js, mongodb (NoSQL), mongoose for connect database to server, c
 ## Some instructions to run locally :
 
 ### Installation
-
+Clone the Repository from Github or download zip file. Then do the following steps:
 ```bash
 # For Frontend
 
