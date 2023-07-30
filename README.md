@@ -27,12 +27,13 @@ Clone the Repository from Github or download zip file. Then do the following ste
     npm start
 
 # For Backend
-    npm install
-    npm run start-dev
 // make a .env file and write these
 // PORT = Your favourite port number
 // MONGO_URI = Mongodb database url
 // JWT_SECRET_KEY= Your Secret key
+
+    npm install
+    npm run start-dev
 
 ## Some HTTP (Hyper Text Transfer Protocol) Status Code Which I used :
 
