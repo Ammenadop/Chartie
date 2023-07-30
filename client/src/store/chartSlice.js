@@ -44,6 +44,7 @@ export function fetchData() {
       }
       );
       const result= await res.json();
+      console.log(result.data);
       dispatch(setData(result ? result.data : []));
     } catch (err) {}
   };
