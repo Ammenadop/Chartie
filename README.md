@@ -45,4 +45,10 @@ Node.js, Express.js, mongodb (NoSQL), mongoose for connect database to server, c
 200 ---> OK/Success
 
 ```
-Deploy links : https://chartie.pages.dev/ (Cloudflare Pages) && https://custom-app-75181.web.app/ (Firebase)
+## Frontend Deployed Links:
+https://chartie.pages.dev/ (Cloudflare Pages)
+##
+https://custom-app-75181.web.app/ (Firebase)
+
+## Backend Render Deployed Link:
+Server Deploy link : https://chartie.onrender.com/
