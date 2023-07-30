@@ -1,0 +1,38 @@
+.login{
+    width: 33rem;
+    height: 450px;
+    border: 1px dotted;
+    border-radius: 10px;
+    margin:3rem auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .spn{
+    margin-top: 20px;
+    width: 90%;
+}
+.login .in{
+    width: 100%;
+}
+.login .btns{
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+.login .links{
+    margin-top: 2rem;
+    text-decoration: none;
+}
+@media only screen and (max-width:800px){
+    .login{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:500px){
+    .login{
+        width: 98%;
+    }
+}

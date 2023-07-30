@@ -1,0 +1,42 @@
+.nav{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 5;
+}
+.nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    padding-left: 80px;
+    padding-top: 25px;
+}
+.logo h1{
+    margin-top: 0;
+}
+.logo .links{
+    text-decoration: none;
+    color: black;
+}
+.nav .cart{
+    height: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.cart i{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart h4{
+    margin-top: 10px;
+}
