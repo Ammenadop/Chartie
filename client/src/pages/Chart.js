@@ -33,7 +33,7 @@ const Chart = () => {
          <Slider value={value} onChange={(e) => chng(e)} className="w-18rem" />
       </div>
       <h4>Slider Value : {value+1}</h4>
-      <Button label="Submit" onClick={()=>go()}/>
+      <Button label="Time Series" onClick={()=>go()}/>
     </div>
   );
 };
