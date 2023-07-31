@@ -8,15 +8,20 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ProtectedRoute from "./propectedRoute/protected";
 import Protect from "./propectedRoute/protect";
+import TimeSeriesChart from "./pages/Timeseries";
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Provider store={store}>
         <BrowserRouter>
           <Navbar />
           <Routes>
             <Route element={<ProtectedRoute />}>
               <Route path="/" element={<Chart />}></Route>
+              <Route
+                path="/time"
+                element={<TimeSeriesChart width={400} height={300}/>}
+              ></Route>
             </Route>
             <Route element={<Protect />}>
               <Route path="/login" element={<Login />}></Route>

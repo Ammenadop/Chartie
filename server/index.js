@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser';
 
 import barRoute from "./routes/bar.js";
 import authRoute from "./routes/auth.js";
+import chartRoute from "./routes/chart.js";
 
 dotenv.config()
 const app = express()
@@ -36,6 +37,7 @@ app.use(cookieParser())
 app.set("trust proxy", 1)
 app.use("/api/v1/auth", authRoute );
 app.use("/api/v1/bars", barRoute );
+app.use("/api/v1/charts", chartRoute );
 
 
 app.listen(port, ()=>{

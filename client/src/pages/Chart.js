@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import BarChart from '../components/Barcharts';
 import { Slider } from "primereact/slider";
 import { useDispatch, useSelector } from 'react-redux';
-import { changed, fetchData } from '../store/chartSlice';
+import { changed, fetchData, fetchDatas } from '../store/chartSlice';
 const Chart = () => {
     const dispatch = useDispatch();
     const [value, setValue] = useState(0);
@@ -17,6 +17,7 @@ const Chart = () => {
     }
     useEffect(() => {
       dispatch(fetchData());
+      dispatch(fetchDatas());
     }, [dispatch]);
   return (
     <div style={{paddingTop:'7rem'}}>

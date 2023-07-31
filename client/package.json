@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "d3": "^7.8.5",
+    "d3-timeseries": "^1.0.1",
     "js-cookie": "^3.0.5",
     "primeflex": "^3.3.1",
     "primeicons": "^6.0.1",
