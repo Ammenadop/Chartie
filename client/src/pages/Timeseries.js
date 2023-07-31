@@ -83,7 +83,7 @@ const TimeSeriesChart = (props) => {
 
   return (
     <div style={{ paddingTop: "6rem" }}>
-      <h1> Time Series</h1>
+      <h1> D3.js Time Series Graph</h1>
       <div id="time_series" ref={chartRef} />
     </div>
   );
