@@ -83,7 +83,7 @@ const TimeSeriesChart = (props) => {
 
   return (
     <div style={{ paddingTop: "6rem" }}>
-      <h4> Time Series</h4>
+      <h1> Time Series</h1>
       <div id="time_series" ref={chartRef} />
     </div>
   );
